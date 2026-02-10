@@ -1,0 +1,31 @@
+{
+  "name": "trello",
+  "version": "0.0.0",
+  "description": "typescript pet-project",
+  "homepage": "https://github.com/Artyom84-hub/trello#readme",
+  "bugs": {
+    "url": "https://github.com/Artyom84-hub/trello/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artyom84-hub/trello.git"
+  },
+  "license": "ISC",
+  "author": "Artyom Gudkov",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
